@@ -13,6 +13,7 @@ import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import Stylesheet from './components/Stylesheet'
 import Form from './components/Form'
+import LifeCycleA from './components/LifeCycleA'
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <NameList /> */}
 
       {/* <Stylesheet primary={false}/> */}
-      <Form />
+      {/* <Form /> */}
+      <LifeCycleA />
 
     </div>
   )

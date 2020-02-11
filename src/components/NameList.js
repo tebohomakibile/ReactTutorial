@@ -2,8 +2,8 @@ import React from 'react'
 
 function NameList() {
 
-    const names = ['Teboho', 'Nozipho', 'Neo'];
-    const nameList = names.map((name) => <h2 key={name.toString()}>{name}</h2>)
+    const names = ['Teboho', 'Nozipho', 'Neo', 'Teboho'];
+    const nameList = names.map((name, index) => <h2 key={index}>{index + 1}. {name}</h2>)
 
     const persons = [
         {
@@ -29,7 +29,8 @@ function NameList() {
 
     return (
         <div>
-            {peronsList}
+            {/* {peronsList} */}
+            {nameList}
         </div>
     )
 }

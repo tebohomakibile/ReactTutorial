@@ -15,7 +15,10 @@ import './App.css'
 // import Form from './components/Form'
 // import LifeCycleA from './components/LifeCycleA'
 // import FragmentDemo from './components/FragmentDemo'
-import Table from './components/Table'
+// import Table from './components/Table'
+// import RegularComponent from './components/RegularComponent'
+// import PureComp from './components/PureComp'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
@@ -41,7 +44,7 @@ function App() {
       {/* <Stylesheet primary={false}/> */}
       {/* <Form /> */}
       {/* <FragmentDemo /> */}
-      <Table />
+      <ParentComp />
 
     </div>
   )

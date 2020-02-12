@@ -1,19 +1,21 @@
 import React from 'react'
-import Greet from './components/Greet'
+// import Greet from './components/Greet'
 import './App.css'
-import Welcome from './components/Welcome'
-import Hello from './components/Hello'
-import Message from './components/Message'
-import Counter from './components/Counter'
-import FunctionClick from './components/FunctionClick'
-import ClassClick from './components/ClassClick'
-import EventBind from './components/EventBind'
-import ParentComponent from './components/ParentComponent'
-import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
-import Stylesheet from './components/Stylesheet'
-import Form from './components/Form'
-import LifeCycleA from './components/LifeCycleA'
+// import Welcome from './components/Welcome'
+// import Hello from './components/Hello'
+// import Message from './components/Message'
+// import Counter from './components/Counter'
+// import FunctionClick from './components/FunctionClick'
+// import ClassClick from './components/ClassClick'
+// import EventBind from './components/EventBind'
+// import ParentComponent from './components/ParentComponent'
+// import UserGreeting from './components/UserGreeting'
+// import NameList from './components/NameList'
+// import Stylesheet from './components/Stylesheet'
+// import Form from './components/Form'
+// import LifeCycleA from './components/LifeCycleA'
+// import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
 
 function App() {
   return (
@@ -38,7 +40,8 @@ function App() {
 
       {/* <Stylesheet primary={false}/> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <FragmentDemo /> */}
+      <Table />
 
     </div>
   )
